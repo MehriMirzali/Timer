@@ -1,0 +1,38 @@
+body {
+    background-color: rgb(60, 45, 153);
+}
+.container {
+    display: flex;
+}
+.time {
+    margin: auto;
+    background-color: transparent;
+    width: 300px;
+    height: 300px;
+    margin-top: 75px;
+    border-radius: 50%;
+    border: 5px dotted tomato;
+}
+span {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(87, 190, 204);
+}
+.status {
+    font-size: 50px;
+    margin-top: 140px;
+}
+.number {
+    margin-top: 90px;
+    font-size: 100px;
+    text-align: center;
+}
+h1{
+    font-size: 80px;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    color: tomato;
+    opacity: .8;
+}
